@@ -62,7 +62,7 @@
     
     unsigned char result[16];//开辟一个16字节（128位：md5加密出来就是128位/bit）的空间（一个字节=8字位=8个二进制数）
     
-    CC_MD5( cStr, strlen(cStr), result);
+    CC_MD5( cStr, (unsigned int)strlen(cStr), result);
     
     /*
      

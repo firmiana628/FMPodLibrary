@@ -24,10 +24,10 @@
 	}
     
 	// Add Information about Current Properties
-	NSUInteger		  property_count;
+	unsigned int   property_count;
 	objc_property_t * property_list = class_copyPropertyList(classType, &property_count); // Must Free, later
     
-	for (int i = property_count - 1; i >= 0; --i) { // Reverse order, to get Properties in order they were defined
+	for (int i = (int)property_count - 1; i >= 0; --i) { // Reverse order, to get Properties in order they were defined
 		objc_property_t property = property_list[i];
         
 		// For Eeach property we are loading its name

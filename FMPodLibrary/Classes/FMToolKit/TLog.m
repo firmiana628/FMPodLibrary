@@ -31,7 +31,7 @@ static NSString* VTPGStringFromBoolOrCharValue(BOOL boolOrCharvalue) {
     return [NSString stringWithFormat:@"'%c'", boolOrCharvalue];
 }
 
-static NSString *VTPGStringFromFourCharCodeOrUnsignedInt32(FourCharCode fourcc) {
+static NSString *VTPGStringFromFourCharCodeOrUnsignedInt32(unsigned long fourcc) {
     return [NSString stringWithFormat:@"%lu ('%c%c%c%c')",
             fourcc,
             (char)(fourcc >> 24) & 0xFF,

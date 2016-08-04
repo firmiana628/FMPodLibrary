@@ -18,7 +18,7 @@ static const char encodingTable[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopq
         return @"";
     
     const char *source = [self UTF8String];
-    int strlength  = strlen(source);
+    unsigned long strlength  = strlen(source);
     
     char *characters = malloc(((strlength + 2) / 3) * 4);
     if (characters == NULL)
