@@ -1,0 +1,23 @@
+{
+  "name": "FMPodLibrary",
+  "version": "0.1.0",
+  "summary": "a podsepc",
+  "description": "firmiana`s personal podsepc",
+  "homepage": "https://github.com/firmiana628/FMPodLibrary",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "张亚威": "zhang-yawei@foxmail.com"
+  },
+  "source": {
+    "git": "https://github.com/firmiana628/FMPodLibrary.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "source_files": "FMPodLibrary/Classes/**/*",
+  "frameworks": "UIKit"
+}

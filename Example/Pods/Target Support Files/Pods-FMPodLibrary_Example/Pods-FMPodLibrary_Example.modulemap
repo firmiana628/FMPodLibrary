@@ -1,0 +1,6 @@
+framework module Pods_FMPodLibrary_Example {
+  umbrella header "Pods-FMPodLibrary_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

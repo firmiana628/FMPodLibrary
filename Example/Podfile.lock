@@ -1,0 +1,14 @@
+PODS:
+  - FMPodLibrary (0.1.0)
+
+DEPENDENCIES:
+  - FMPodLibrary (from `../`)
+
+EXTERNAL SOURCES:
+  FMPodLibrary:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FMPodLibrary: 4b6acc2e93068a20b60c237e285efd6c8b6c27bf
+
+COCOAPODS: 0.39.0
