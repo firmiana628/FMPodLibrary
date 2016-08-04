@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'FMPodLibrary_Example' do
+  pod 'FMPodLibrary', :path => '../'
+
+  target 'FMPodLibrary_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end
